@@ -1,0 +1,5 @@
+gcc -c list.c -o list.o
+gcc -c rbtree.c -o rbtree.o
+ar rcs libpi.a list.o rbtree.o
+mkdir .objs -p
+mv *.o .objs/
